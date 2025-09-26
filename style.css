@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.mid {
+    margin-top: 12vw;
+}
+
+#head{
+    color: white;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 5vw;
+    margin-top: 5vw;   
+    position: relative;
+    margin-left: 10vw;
+}
+
+#circle{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-right: 70px;
+}
