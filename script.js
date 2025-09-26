@@ -13,13 +13,14 @@ tl.to("#circle", {
 tl.pause()
 
 btn.addEventListener("click", ()=> {
-  if(!toggle){
+  if(toggle == true){
     tl.play()
     document.body.style.backgroundColor = "white"    
     head.style.color = "black";   
     btn.style.backgroundColor = "white"
     container.style.border = "2px solid white"
     container.style.backgroundColor = "blue"
+    toggle = false;
   } 
   else {  
     tl.reverse()
@@ -27,9 +28,8 @@ btn.addEventListener("click", ()=> {
     head.style.color = "white";
     btn.style.backgroundColor = "whitesmoke"
     container.style.backgroundColor = "black"
+    toggle = true;
   }
-  toggle = !toggle
-    
 })
 
 
